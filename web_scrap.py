@@ -42,8 +42,8 @@ for j in commodity_table.find_all('tr')[1:]:
 
 mydata.to_csv('commodity.csv', index=False)
 mydata2 = pd.read_csv('commodity.csv')
+mydata2.head()
 
-print(mydata2)
 
 try:
     connection = mysql.connector.connect(host='',
