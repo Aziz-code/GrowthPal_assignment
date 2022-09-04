@@ -1,4 +1,46 @@
+STEP 1.INSTALLING LIBRARIES:-
 requests
 BeautifulSoup
 pandas
 mysql.connector
+
+STEP 2. IMPORT REQUIRED LIBRARIES
+
+STEP 3. SELECT PAGE:-
+agmark site for the commodities information
+
+STEP 4. REQUEST PERMISSION:
+After we select what page we want to scrape, now we can copy the page’s URL and use requests to ask permission from the hosting server that we want to fetch data from their site.
+
+STEP 5. INSPECT TABLE ELEMENT
+Obtain information from tag <table>
+table1 = soup.find('table', id='table_id')
+
+STEP 6. CREATE A COLUMN LIST
+
+STEP 7. CREATE A DATA FRAME
+
+STEP 8. CREATE A FOR LOOP TO FILL DATAFRAME
+
+STEP 10. EXPORT TO CSV AND TRY TO RUN IT
+
+//Database connection
+
+step 1. install MySQL Connector Python
+pip install mysql-connector-python
+
+step 2. import MySQL connector 
+
+step 3. Use the connect() method
+
+step 4. Create a table
+
+step 5. Define a SQL Insert query
+
+step 6. Use the cursor() method:
+Use the cursor() method of a MySQLConnection object to create a cursor object to perform various SQL operations.
+
+step 7. Execute the insert query using execute() method
+
+step 8. Close the cursor object and database connection object
+
