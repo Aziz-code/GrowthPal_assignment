@@ -10,7 +10,7 @@ STEP 2. IMPORT REQUIRED LIBRARIES <br/>
  <br/>
 STEP 3. SELECT PAGE:-
 agmark site for the commodities information
- <br/> 
+ <br/>  <br/>
 STEP 4. REQUEST PERMISSION:
 After we select what page we want to scrape, now we can copy the page’s URL and use requests to ask permission from the hosting server that we want to fetch data from their site.
  <br/> <br/>
@@ -19,7 +19,7 @@ Obtain information from tag <table>
 table1 = soup.find('table', id='table_id')
  <br/> <br/>
 STEP 6. CREATE A COLUMN LIST
- <br/> <br/> <br/> <br/>
+ <br/> <br/> 
 STEP 7. CREATE A DATA FRAME
  <br/> <br/>
 STEP 8. CREATE A FOR LOOP TO FILL DATAFRAME
