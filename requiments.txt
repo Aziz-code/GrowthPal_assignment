@@ -1,0 +1,7 @@
+Requirements:-
+
+pip install pandas
+pip install beautifulsoup
+pip install requests
+pip install mysql-connector-python
+
