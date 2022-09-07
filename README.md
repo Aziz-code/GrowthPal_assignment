@@ -46,4 +46,14 @@ step 7. Execute the insert query using execute() method
  <br/> <br/>
 step 8. Close the cursor object and database connection object
 
-
+//INSTRUTCTIONS HOW TO RUN DATABASE QUERY:-
+<br/>
+step 1 First download and install any local server such as xampp or wampp
+<br/><br/>
+step 2 Then start the local server of your system
+<br/><br/>
+step 3 Now add the localhost as a host
+<br/><br/> 
+step 4 Now enter your database details in code such as dbname, root and password.
+<br/><br/>
+step 5 That's it your database will be connected.
